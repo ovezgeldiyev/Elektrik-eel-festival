@@ -1,0 +1,155 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+  }
+  h2 {
+    font-size: 65px;
+  }
+  h4 {
+    font-size: 50px;
+    &.sm {
+      font-size: 45px;
+    }
+  }
+  h5 {
+    font-size: 22px;
+  }
+  @include venue-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h2 {
+    font-size: 55px;
+  }
+//   @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h2 {
+    font-size: 55px;
+  }
+  h4 {
+    font-size: 45px;
+    &.sm {
+      font-size: 40px;
+    }
+  }
+  p {
+    font-size: 20px;
+    &.sm {
+        font-size: 16px;
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include venue-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  p {
+    &.sm {
+        font-size: 14px;
+    }
+  }
+  .anchor {
+    top: -80px;
+  }
+  @include hero-md-lg;
+  @include artists-md-lg;
+  @include playlist-md-lg;
+  @include venue-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 18px;
+    &.sm {
+        font-size: 14px;
+    }
+    &.ex {
+        font-size: 13px;
+    }
+  }
+  @include venue-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include artists-sm-md-extra;
+  @include ticket-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  .anchor {
+    top: -60px;
+  }
+  @include hero-xsm-sm;
+  @include playlist-xsm-sm;
+  @include venue-xsm-sm;
+  @include ticket-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+//   @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
